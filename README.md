@@ -13,7 +13,7 @@ Dit is de repository van <a href="https://danianmarengo.nl">Danian Marengo</a> z
 <br>
 
 ## Aan de slag
-Je moet Node.js en Node Package Manager op je machine geïnstalleerd hebben, dit zijn onze enige afhankelijkheden om het project lokaal te kunnen draaien.
+...
 
 <br>
 
