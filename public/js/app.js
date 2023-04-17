@@ -1,10 +1,5 @@
-import { handleChat } from "./chat.js";
-
-handleChat();
-
-
-export function handleNameInput() {
-  document.getElementById("name-form").addEventListener("submit", (event) => {
+function handleNameInput() {
+  document.querySelector("#name-form").addEventListener("submit", (event) => {
     event.preventDefault();
     const userName = document.getElementById("user-name").value;
     if (userName) {
@@ -13,3 +8,5 @@ export function handleNameInput() {
     }
   });
 }
+
+handleNameInput();

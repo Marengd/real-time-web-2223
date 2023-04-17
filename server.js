@@ -33,7 +33,13 @@ let history = [];
 
 // Handle socket connections and disconnections
 io.on('connection', (socket) => {
-  console.log('a user connected');
+  // Get the user's name from the session storage
+  const userName = socket.handshake.query.userName || "anonymous";
+  console.log(`${userName} connected`);
+
+  // Send the "user joined" message to all connected clients
+  io.emit('user-connected', `${userName} joined the chat.`);
+
   io.emit('history', history);
 
   socket.on('message', (message) => {
@@ -47,8 +53,12 @@ io.on('connection', (socket) => {
     io.emit('message', message);
   });
 
+
   socket.on('disconnect', () => {
     console.log('user disconnected');
+
+    // Send the "user disconnected" message to all connected clients
+    io.emit('user-disconnected', `${userName} left the chat`);
   });
 });
 

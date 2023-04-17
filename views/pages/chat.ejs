@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<%- include("../partials/head.ejs") %>
+<%- include("../partials/head_chat.ejs") %>
 
-   <body>
+<body>
+  <main>
+    <h1>Realtime Chatroom – Opzet</h1>
 
-      <main>
-         <h1>Realtime Chatroom– Opzet</h1>
+    <section>
+      <ul></ul>
+    </section>
 
-         <ul></ul>
-
-         <form>
-            <input type="text" autocomplete="off">
-            <button>Versturen</button>
-         </form>
-      </main>
-
-   </body>
+    <form>
+      <input type="text" id="message" autocomplete="off">
+      <button>Versturen</button>
+    </form>
+  </main>
+</body>
 
 </html>
