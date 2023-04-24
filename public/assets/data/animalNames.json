@@ -1,0 +1,37 @@
+{
+   "AnimalName": {
+      "A": [
+         "Aap"
+      ],
+      "L": [
+         "Leeuw"
+      ],
+      "O": [
+         "Olifant"
+      ],
+      "T": [
+         "Tijger"
+      ],
+      "G": [
+         "Giraffe"
+      ],
+      "Z": [
+         "Zebra"
+      ],
+      "K": [
+         "Kangoeroe"
+      ],
+      "N": [
+         "Neushoorn"
+      ],
+      "V": [
+         "Vos"
+      ],
+      "H": [
+         "Hert"
+      ],
+      "P": [
+         "Pinguïn"
+      ]
+   }
+}
