@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include("../partials/head_joinRoom.ejs") %>
+
+<body>
+
+    <main>
+
+        <h1>Race</h1>
+
+        <form id="join-room-form">
+
+          <label for="room-id-input">Room ID</label>
+          <input type="text" id="room-id-input" required />
+
+          <p>Your unique matchmaking ID: <span id="matchmaking-id"></span></p>
+
+          <button type="submit">Join Room</button>
+
+        </form>
+
+      </main>
+
+</body>
+
+</html>

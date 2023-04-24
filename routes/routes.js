@@ -10,7 +10,11 @@ const controller = require("../controller/controller");
 // Define a route for the root path ("/") that handles GET requests and calls the "index" function from the controller.
 router.get("/", controller.index);
 
-router.get("/chat", controller.chat);
+router.get("/pre-lobby", controller.preLobby);
+
+router.get("/join-room", controller.joinRoom);
+
+router.get("/race", controller.race);
 
 // Export the router instance as the module's default export.
 module.exports = router;

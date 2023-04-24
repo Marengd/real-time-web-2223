@@ -2,11 +2,22 @@ const index = (req, res) => {
    res.render("pages/index");
  };
 
-const chat = (req, res) => {
-  res.render("pages/chat");
-}
+ const preLobby = (req, res) => {
+  res.render("pages/preLobby");
+};
+
+const joinRoom = (req, res) => {
+  res.render("pages/joinRoom");
+};
+
+const race = (req, res) => {
+  res.render("pages/race");
+};
+
 
 module.exports = {
   index,
-  chat,
+  preLobby,
+  joinRoom,
+  race,
 };
