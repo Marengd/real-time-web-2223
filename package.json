@@ -1,7 +1,7 @@
 {
   "name": "real-time-web-2223",
   "version": "1.0.0",
-  "description": "Real time web app, assignment 1",
+  "description": "Real time web application for the minor web development.",
   "main": "server.js",
   "directories": {
     "doc": "docs"
