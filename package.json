@@ -22,6 +22,8 @@
   "homepage": "https://github.com/Marengd/real-time-web-2223#readme",
   "dependencies": {
     "assert": "^2.0.0",
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
     "ejs": "^3.1.9",
     "express": "^4.18.2",
     "socket.io": "^4.6.1"

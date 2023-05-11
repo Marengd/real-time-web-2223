@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include("../partials/head.ejs") %>
+
+<body>
+
+  <main class="main-quiz-room">
+    <h1>De ultieme muziek- quiz.</h1>
+    <h2>Code van de kamer: <%= room %></h2>
+    <div id="countdown"></div>
+    <audio id="preview" controls></audio>
+    <div id="options"></div>
+    <div id="scoreboard"></div>
+  </main>
+
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/quiz_room.js"></script>
+</body>
+
+</html>

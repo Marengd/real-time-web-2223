@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include("../partials/head.ejs") %>
+
+<body>
+
+  <main class="main-enter-username">
+
+    <section>
+
+      <form id="enter-username-form">
+
+        <h3>Kies je gebruikersnaam</h3>
+
+        <fieldset>
+            <legend>Gebruikersnaam</legend>
+          
+            <label for="username">
+              <input type="text" id="username" name="username" placeholder="Lil Nas X" required>
+            </label>
+        </fieldset>
+    
+        <button type="submit">Ga verder</button>
+      </form>
+  
+    </section>
+
+    <section>
+      <p>Logo</p>
+    </section>
+    
+  </main>
+  
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/js/enter_username.js"></script>
+</body>
+</html>

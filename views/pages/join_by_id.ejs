@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include("../partials/head.ejs") %>
+
+<body>
+
+  <main class="main-join-by-id">
+
+    <section>
+
+      <form id="enter-quiz-room-form" action="/quiz_room" method="get">
+
+        <h3>Vul de code in van de kamer</h3>
+
+        <fieldset>
+            <legend>Kamercode</legend>
+
+            <input type="hidden" id="username" name="username" value="<%= username %>">
+          
+            <label for="room">
+              <input type="text" id="room" name="room" placeholder="X3FvBZnK" required>
+            </label>
+        </fieldset>
+    
+        <button type="submit">Doe mee</button>
+      </form>
+  
+    </section>
+
+    <section>
+      <p>Logo</p>
+    </section>
+    
+  </main>
+
+  <script src="/socket.io/socket.io.js"></script>
+</body>
+</html>
