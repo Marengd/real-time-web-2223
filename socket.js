@@ -119,9 +119,9 @@ module.exports = function initializeSocket(io) {
 
     // Wanneer een speler de verbinding verbreekt
     socket.on('disconnect', () => {
-      console.log('Disconnected:', socket.id);
+      // console.log('Disconnected:', socket.id);
       const room = Object.keys(socket.rooms).find((r) => r !== socket.id);
-      console.log('Room:', room);
+      // console.log('Room:', room);
       if (room) {
         const gameState = getRoomState(room);
         delete gameState.players[socket.id];
