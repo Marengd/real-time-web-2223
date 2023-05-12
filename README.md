@@ -252,10 +252,15 @@ Stuurt de winnaar door naar de resultatenpagina.
 ## Complexiteit én functionaliteit.
 Het belichten van de uitgebreide aard van het project en de diverse functionaliteiten die het biedt. Waarbij de focús ligt op het presenteren van de onderliggende 'logica'.
 
-<br>
 
-### Spelruimtes.
+<details>
+
+<summary>
+
+  ### Spelruimtes.
 De diverse functionalieiten die mijn applicatie te bieden heeft met betrekking tot de 'virtuele ruimtes'.
+
+</summary>
 
 <br>
 
@@ -277,36 +282,61 @@ Gebruikers kunnen een quiz organiseren in een eigen speelruimte.
 Gebruikers kunnen deelnemen aan een andere quiz, door middel van toegangscode voor de speelruimte.
 
 <br>
+
+</details>
+
 <br>
+
+
+<details>
+
+  <summary>
 
 ### Het spel.
-...
+De diverse functionalieiten die mijn applicatie te bieden heeft met betrekking tot de quiz in de 'virtuele ruimtes'.
+
+  </summary>
+
 
 <br>
 
-###### ...
+###### Auto- start.
 Bij een minimaal aantal deelnemers, wordt er afgeteld voordat het spel begint. 
 
+<br>
 
-###### ...
+###### Maximaal aantal deelnemers.
 Er kunnen maximaal 10 deelnemers meedoen aan een quiz.
 
-###### ...
-Iedere ronde wordt er een willekeurig nummer afgespeeld uit de Spotify Afspeellijst <a href=""></a>'Topnummers- van de wereld'.
+<br>
 
-###### ...
-Iedere ronde worden er naast de correcte artiest, 3 incorrecte artiesten uit de Spotify Afspeellijst <a href=""></a>'Topnummers- van de wereld'. weergegeven om een keuze uit te maken.
+###### Willekeurige nummers raden.
+Iedere ronde wordt er een willekeurig nummer afgespeeld uit de Spotify Afspeellijst <a href="https://open.spotify.com/playlist/37i9dQZEVXbNG2KDcFcKOF"></a>'Topnummers- van de wereld'.
 
-###### ...
+<br>
+
+###### Meerkeuze vragen.
+Iedere ronde worden er naast de correcte artiest, 3 incorrecte artiesten uit de Spotify Afspeellijst <a href="https://open.spotify.com/playlist/37i9dQZEVXbNG2KDcFcKOF"></a>'Topnummers- van de wereld'. weergegeven om een keuze uit te maken.
+
+<br>
+
+###### Bijgehouden score.
 Iedere ronde wordt de score van alle deelnemers bijgehouden.
 
-###### ...
+<br>
+
+###### Speldoel.
 Deelnemers kunnen de 'ultieme muziek quiz' winnen door de eerste te zijn van alle deelnemers die 10 punten heeft behaald.
 
-###### ... 
+<br>
+
+###### Winnaar.
 Alle deelnemers worden na afloop van de quiz naar een pagina gestuurd waar de winnaar van de quiz te zien is.
 
 <br>
+
+</details>
+
 <br>
 
 ## Client- server interactie.
