@@ -168,8 +168,13 @@ De gebeurtenissen of die onmiddellijk worden verwerkt in de applicatie zonder me
 
 <br>
 
-### Kamers.
-De gebeurtenissen binnen de 'virtuele ruimtes' in de applicatie applicatie waarin spelers een quiz kunnen organiseren of aan deelnemen.
+
+<details>
+  <summary>
+
+  ### Kamers.
+  De gebeurtenissen binnen de 'virtuele ruimtes' in de applicatie applicatie waarin spelers een quiz kunnen organiseren of aan deelnemen.
+  </summary>
 
 <br>
 
@@ -188,11 +193,17 @@ Bevestigt dat de kamer is aangemaakt en stuurt de kamernaam naar de speler die d
 
 <br>
 
-### Het spel.
-De gebeurtenissen binnen het spel, dat zich afspeelt binnen de 'virtuele ruimtes' in de applicatie.
+</details>
+
+
+<details>
+  <summary>
+
+  ### Het spel.
+  De gebeurtenissen binnen het spel, dat zich afspeelt binnen de 'virtuele ruimtes' in de applicatie.
+</summary>
 
 <br>
-
 
 ###### UpdateScoreboard.
 Het scorebord wordt bijgewerkt met de huidige scores van alle spelers in de kamer.
@@ -233,6 +244,9 @@ Schakelt de antwoordknoppen in voor alle spelers in de kamer.
 Stuurt de winnaar door naar de resultatenpagina.
 
 <br>
+
+</details>
+
 <br>
 
 ## Complexiteit én functionaliteit.
