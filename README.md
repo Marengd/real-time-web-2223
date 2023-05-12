@@ -401,10 +401,14 @@ In deze functie wordt de speler verwijderd uit de lijst met deelnemers in de bet
 <br>
 
 ## Toekomstige verbeteringen.
-...
+Verbeteringen, die ik in de toekomst zou toevoegen.
+
+<br>
 
 ### Gebruikersnaambeheer.
-...
+Over het verbeteren van het beheren van gebruikersnamen.
+
+<br>
 
 - [ ] Gebruikersnamen controleren op bestaan, lengte en inhoud.
 - [ ] Deelnemers kunnen verwijderen uit een georganiseerde quiz.
@@ -412,7 +416,9 @@ In deze functie wordt de speler verwijderd uit de lijst met deelnemers in de bet
 <br>
 
 ### Quizfunctionaliteit.
-...
+Over het verbeteren van de quiz functionaliteit.
+
+<br>
 
 - [ ] Deelnemers kunnen de quiz hervatten binnen 15 seconden na een 'Disconnect'.
 
@@ -427,7 +433,9 @@ In deze functie wordt de speler verwijderd uit de lijst met deelnemers in de bet
 <br>
 
 ### Vormgeving en gebruikerservaring.
-...
+Over het verbeteren van de vormgeving en gebruikerservaring.
+
+<br>
 
 - [ ] Geluidseffect toevoegen bij het aftellen.
 
@@ -439,14 +447,18 @@ In deze functie wordt de speler verwijderd uit de lijst met deelnemers in de bet
 - [ ] Leaderboard tonen met alle plaatsen aan het einde, in plaats van alleen de winnaar.
 
 ### Gerelateerd aan mijn code.
-...
+Over het verbeteren van mijn code.
+
+<br>
 
 - [ ] Code refactoren om de code leesbaarder en onderhoudbaar te maken.
 - [ ] Implementeren van een code bundler om de code efficiënter te beheren.
 
 
 ### Gegevensbeheer en prestaties.
-...
+Over het verbeteren van gegevensbeheer en prestaties. 
+
+<br>
 
 - [ ] Nummers ophalen tijdens het aftellen, in plaats van na het aftellen.
 
