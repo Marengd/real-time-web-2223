@@ -403,6 +403,10 @@ In deze functie wordt de speler verwijderd uit de lijst met deelnemers in de bet
 ## Toekomstige verbeteringen.
 ...
 
+- [x] Voltooide taak 1
+- [ ] Onvoltooide taak 2
+- [ ] Onvoltooide taak 3
+
 <br>
 <br>
 
