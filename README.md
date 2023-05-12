@@ -36,7 +36,55 @@ Npm run start
 <br>
 
 ## Projectstructuur
-...
+De organisatie en hiërarchie van mappen en bestanden, binnen mijn project.
+
+<br>
+<br>
+
+### Tree
+De mappen en bestanden van mijn project in een boomstructuur worden getoond.
+
+
+
+
+
+
+```  
+
+.
+├── Api/
+│   └── Spotify.js
+├── Controller/
+│   └── Controller.js
+├── Docs
+├── Node_Modules
+├── Public/
+│   ├── Css/
+│   │   └── Styles.css
+│   └── Js/
+│       ├── Create_Or_Join.js
+│       ├── Enter_Username.js
+│       └── Quiz_Room.js
+├── Routes/
+│   └── Routes.js
+├── Views/
+│   ├── Pages/
+│   │   ├── Create_Or_Join.ejs
+│   │   ├── Enter_Username.ejs
+│   │   ├── Join_By_Id.ejs
+│   │   ├── Quiz_Result.ejs
+│   │   ├── Quiz_Room.ejs
+│   │   └── Start_Quiz.ejs
+│   └── Partials/
+│       └── Head.ejs
+├── .env
+├── .gitignore
+├── License
+├── package.json
+├── server.js
+└── socket.js
+
+```
 
 <br>
 
