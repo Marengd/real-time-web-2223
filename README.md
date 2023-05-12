@@ -44,10 +44,7 @@ De organisatie en hiërarchie van mappen en bestanden, binnen mijn project.
 ### Tree
 De mappen en bestanden van mijn project in een boomstructuur worden getoond.
 
-
-
-
-
+<br>
 
 ```  
 
@@ -85,6 +82,17 @@ De mappen en bestanden van mijn project in een boomstructuur worden getoond.
 └── socket.js
 
 ```
+
+<br>
+
+### Verantwoordelijk voor de logica.
+...
+
+<br>
+
+### `Spotify.js` :
+
+
 
 <br>
 
