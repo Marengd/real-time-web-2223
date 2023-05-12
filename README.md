@@ -89,8 +89,13 @@ De mappen en bestanden die het gedrag van de applicatie sturen.
 
 <br>
 
-### Set- up en configuratie.
-De bestanden die nodig zijn voor het instellen en configureren van de server en de ontwikkelings- omgeving.
+<details>
+
+  <summary>
+
+  ### Set- up en configuratie.
+  De bestanden die nodig zijn voor het instellen en configureren van de server en de ontwikkelings- omgeving.
+  </summary>
 
 <br>
 
@@ -105,8 +110,16 @@ Dit bestand bevat de logica voor de realtime communicatie tussen de server en de
 <br>
 <br>
 
-### Api interactie
-De scripts die zijn ontworpen om te communiceren met externe API's.
+</details>
+
+
+<details>
+
+<summary>
+
+  ### Api interactie
+  De scripts die zijn ontworpen om te communiceren met externe API's.
+</summary>
 
 <br>
 
@@ -114,10 +127,18 @@ De scripts die zijn ontworpen om te communiceren met externe API's.
 Dit bestand bevat functies om met de Spotify API te communiceren en om tokens aan te vragen, willekeurige artiesten te krijgen en willekeurige nummers te zoeken.
 
 <br>
-<br>
+
+</details>
+
+
+<details>
+
+<summary>
 
 ### View contollers
 De scripts die de logica beheren achter de weergave van de webpagina's.
+
+</summary>
 
 <br>
 
@@ -127,10 +148,16 @@ Dit bestand bevat uw controller functies.
 Deze functies regelen de logica voor elke route en sturen de juiste respons terug naar de client.
 
 <br>
-<br>
+</details>
+
+<details>
+
+<summary>
 
 ### Web server routes
 De webpagina's die aan gebruikers worden getoond.
+
+</summary>
 
 <br>
 
@@ -138,6 +165,9 @@ De webpagina's die aan gebruikers worden getoond.
 Dit bestand definieert de routes voor de toepassing en welke controller functie moet worden aangeroepen wanneer een route wordt bezocht.
 
 <br>
+
+</details>
+
 <br>
 
 ## De applicatie op Adaptable.io
