@@ -406,51 +406,49 @@ In deze functie wordt de speler verwijderd uit de lijst met deelnemers in de bet
 ### Gebruikersnaambeheer.
 ...
 
-[ ] Gebruikersnamen controleren op bestaan, lengte en inhoud.
-[ ] Deelnemers kunnen verwijderen uit een georganiseerde quiz.
+- [ ] Gebruikersnamen controleren op bestaan, lengte en inhoud.
+- [ ] Deelnemers kunnen verwijderen uit een georganiseerde quiz.
 
 <br>
 
 ### Quizfunctionaliteit.
 ...
 
-[ ] Deelnemers kunnen de quiz hervatten binnen 15 seconden na een 'Disconnect'.
+- [ ] Deelnemers kunnen de quiz hervatten binnen 15 seconden na een 'Disconnect'.
 
-[ ] Deelnemers ontvangen een melding als een andere deelnemer de quiz vroegtijdig verlaat.
+- [ ] Deelnemers ontvangen een melding als een andere deelnemer de quiz vroegtijdig verlaat.
 
-[ ] Deelnemers kunnen tijdens de quiz hun positie zien ten opzichte van andere deelnemers.
+- [ ] Deelnemers kunnen tijdens de quiz hun positie zien ten opzichte van andere deelnemers.
 
-[ ] Deelnemers ontvangen een melding met de naam van de persoon die als eerste het correcte antwoord heeft gegeven.
+- [ ] Deelnemers ontvangen een melding met de naam van de persoon die als eerste het correcte antwoord heeft gegeven.
 
-[ ] Deelnemers ontvangen een melding als ze zelf een incorrect antwoord hebben gegeven.
+- [ ] Deelnemers ontvangen een melding als ze zelf een incorrect antwoord hebben gegeven.
 
 <br>
 
 ### Vormgeving en gebruikerservaring.
 ...
 
-[ ] Geluidseffect toevoegen bij het aftellen.
+- [ ] Geluidseffect toevoegen bij het aftellen.
 
-[ ] Aantrekkelijkere vormgeving van de startpagina.
-[ ] Aantrekkelijkere vormgeving van de quizpagina.
+- [ ] Aantrekkelijkere vormgeving van de startpagina.
+- [ ] Aantrekkelijkere vormgeving van de quizpagina.
 
-[ ] Paginatransities toevoegen tussen gebeurtenissen.
+- [ ] Paginatransities toevoegen tussen gebeurtenissen.
 
-[ ] Leaderboard tonen met alle plaatsen aan het einde, in plaats van alleen de winnaar.
+- [ ] Leaderboard tonen met alle plaatsen aan het einde, in plaats van alleen de winnaar.
 
 ### Gerelateerd aan mijn code.
 ...
 
-[ ] Code refactoren om de code leesbaarder en onderhoudbaar te maken.
-[ ] Implementeren van een code bundler om de code efficiënter te beheren.
+- [ ] Code refactoren om de code leesbaarder en onderhoudbaar te maken.
+- [ ] Implementeren van een code bundler om de code efficiënter te beheren.
 
 
 ### Gegevensbeheer en prestaties.
 ...
 
-[ ] Nummers ophalen tijdens het aftellen, in plaats van na het aftellen.
-
-- [ ] LOL
+- [ ] Nummers ophalen tijdens het aftellen, in plaats van na het aftellen.
 
 <br>
 <br>
