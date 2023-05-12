@@ -25,10 +25,10 @@ Stapsgewijze instructies voor het installeren en uitvoeren van de applicatie.
 Git clone https://github.com/Marengd/real-time-web-2223.git
 
 # Navigeer naar de gekloonde projectfolder.
-Cd ...
+Cd real-time-web-2223
 
 # Installeer de projectafhankelijkheden.
-Npm ...
+Npm install
 
 # Start de projectserver.
 Npm run start
@@ -361,7 +361,15 @@ Alle deelnemers worden na afloop van de quiz naar een pagina gestuurd waar de wi
 <br>
 
 ## Onderhouden van data.
-...
+Onderhoud van gegevens in het project.
+
+<br>
+
+## Data Model.
+<!-- ... -->
+
+<img src="docs/assets/imgs/readme-data-model.jpg" alt="..." width="100%">
+
 
 <br>
 <br>
