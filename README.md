@@ -95,12 +95,12 @@ De bestanden die nodig zijn voor het instellen en configureren van de server en 
 
 <br>
 
-### `Server.js` : 
+###### Server.js : 
 Dit is het belangrijkste bestand dat de server initialiseert. Het stelt Express en Socket.IO in en start de server.
 
 <br>
 
-### `Socket.js` : 
+###### Socket.js : 
 Dit bestand bevat de logica voor de realtime communicatie tussen de server en de clients met behulp van Socket.IO.
 
 Het behandelt verschillende Socket.IO-events, zoals het joinen van een room, het creëren van een room en het verbreken van de verbinding.
@@ -113,7 +113,7 @@ De scripts die zijn ontworpen om te communiceren met externe API's.
 
 <br>
 
-### `Spotify.js` :
+###### Spotify.js : 
 Dit bestand bevat functies om met de Spotify API te communiceren en om tokens aan te vragen, willekeurige artiesten te krijgen en willekeurige nummers te zoeken.
 
 <br>
@@ -124,7 +124,7 @@ De scripts die de logica beheren achter de weergave van de webpagina's.
 
 <br>
 
-### `Controller.js` : 
+###### Controller.js : 
 Dit bestand bevat uw controller functies. 
 
 Deze functies regelen de logica voor elke route en sturen de juiste respons terug naar de client.
@@ -137,7 +137,7 @@ De webpagina's die aan gebruikers worden getoond.
 
 <br>
 
-### `Routes.js` : 
+###### Routes.js : 
 Dit bestand definieert de routes voor de toepassing en welke controller functie moet worden aangeroepen wanneer een route wordt bezocht.
 
 <br>
