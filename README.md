@@ -180,7 +180,7 @@ https://real-time-web-2223.up.railway.app//
 <br>
 
 ## De data- lifecycle.
-...
+<img src="docs/assets/imgs/readme-data-cycle-diagram.jpg" alt="..." width="100%">
 
 <br>
 
@@ -366,8 +366,6 @@ Onderhoud van gegevens in het project.
 <br>
 
 ## Data Model.
-<!-- ... -->
-
 <img src="docs/assets/imgs/readme-data-model.jpg" alt="..." width="100%">
 
 
