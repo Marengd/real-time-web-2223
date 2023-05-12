@@ -143,11 +143,6 @@ Dit bestand definieert de routes voor de toepassing en welke controller functie 
 <br>
 <br>
 
-
-
-
-<br>
-
 ### `
 
 
@@ -155,11 +150,11 @@ Dit bestand definieert de routes voor de toepassing en welke controller functie 
 <br>
 
 ## De applicatie op Adaptable.io
-Een link naar de gepubliceerde applicatie die staat op [Adaptable.io](https://adaptable.io)
+Een link naar de gepubliceerde applicatie.
 
 ``` shell
-# ...
-https://danian-marengo-real-time-web.adaptable.app/
+# Link naar gepubliceerde applicatie.
+https://real-time-web-2223.up.railway.app//
 ```
 <br>
 
@@ -169,82 +164,70 @@ https://danian-marengo-real-time-web.adaptable.app/
 <br>
 
 ## De real- time events.
-...
+De gebeurtenissen of die onmiddellijk worden verwerkt in de applicatie zonder merkbare vertraging.
 
 ### Kamers.
-...
+De gebeurtenissen binnen de 'virtuele ruimtes' in de applicatie applicatie waarin spelers een quiz kunnen organiseren of aan deelnemen.
 
 <br>
 
-###### ...
-##### Join.
+###### Join.
 Een speler probeert deel te nemen aan een spelkamer met een gebruikersnaam en kamernaam.
 
-###### ...
-##### CreateRoom.
+###### CreateRoom.
 Een nieuwe spelkamer wordt aangemaakt.
 
-###### ...
-##### RoomCreated.
+###### RoomCreated.
  Bevestigt dat de kamer is aangemaakt en stuurt de kamernaam naar de speler die de kamer heeft aangemaakt.
 
 <br>
 
 ### Het spel.
-...
+De gebeurtenissen binnen het spel, dat zich afspeelt binnen de 'virtuele ruimtes' in de applicatie.
 
 <br>
 
 
-###### ...
-##### UpdateScoreboard.
+###### UpdateScoreboard.
 Het scorebord wordt bijgewerkt met de huidige scores van alle spelers in de kamer.
 
-###### ...
-##### UpdateCountdown.
+###### UpdateCountdown.
  De aftelklok wordt bijgewerkt en naar alle spelers in de kamer gestuurd.
 
-###### ...
-##### SubmitAnswer.
+###### SubmitAnswer.
 Een speler dient een antwoord in voor de huidige vraag in de kamer.
 
-###### ...
-##### DisableButtons.
+###### DisableButtons.
 Schakelt de antwoordknoppen uit voor de speler die een fout antwoord heeft ingediend.
 
-###### ...
-##### NextRound.
+###### NextRound.
 Verzoekt een nieuwe ronde te starten in de kamer.
 
-###### ...
-##### NewQuestion.
+###### NewQuestion.
 Een nieuwe vraag wordt naar alle spelers in de kamer gestuurd.
 
-###### ...
-##### EnableButtons.
+###### EnableButtons.
 Schakelt de antwoordknoppen in voor alle spelers in de kamer.
 
-###### ...
-##### RedirectToResults.
+###### RedirectToResults.
 Stuurt de winnaar door naar de resultatenpagina.
 
-
-
+<br>
 <br>
 
 ## Complexiteit én functionaliteit.
-...
+Het belichten van de uitgebreide aard van het project en de diverse functionaliteiten die het biedt. Waarbij de focús ligt op het presenteren van de onderliggende 'logica'.
 
 <br>
 
 ###### Functionaliteiten.
-...
+De diverse functionaliteit die mijn applicatie te bieden heeft. 
 
 ### Spelruimtes.
-...
+De diverse functionalieiten die mijn applicatie te bieden heeft met betrekking tot de 'virtuele ruimtes'.
 <br>
 
-###### ...
+###### Functionaliteit 1A.
 Gebruikers kunnen een eigen gebruikersnaam invoeren.
 
 
