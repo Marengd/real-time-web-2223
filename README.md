@@ -420,7 +420,7 @@ In deze functie wordt de speler verwijderd uit de lijst met deelnemers in de bet
 
 - [ ] Deelnemers kunnen tijdens de quiz hun positie zien ten opzichte van andere deelnemers.
 
-- [ ] Deelnemers ontvangen een melding met de naam van de persoon die als eerste het correcte antwoord heeft gegeven.
+- [ ] Deelnemers ontvangen een melding met de naam van de persoon die het correcte antwoord heeft gegeven.
 
 - [ ] Deelnemers ontvangen een melding als ze zelf een incorrect antwoord hebben gegeven.
 
