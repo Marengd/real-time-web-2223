@@ -143,9 +143,7 @@ De scripts die de logica beheren achter de weergave van de webpagina's.
 <br>
 
 ###### Controller.js : 
-Dit bestand bevat uw controller functies. 
-
-Deze functies regelen de logica voor elke route en sturen de juiste respons terug naar de client.
+Dit bestand bevat uw controller functies. Deze functies regelen de logica voor elke route en sturen de juiste respons terug naar de client.
 
 <br>
 </details>
@@ -170,7 +168,7 @@ Dit bestand definieert de routes voor de toepassing en welke controller functie 
 
 <br>
 
-## De applicatie op Adaptable.io
+## De applicatie op Railway.app
 Een link naar de gepubliceerde applicatie.
 
 <br>
@@ -195,24 +193,24 @@ De gebeurtenissen of die onmiddellijk worden verwerkt in de applicatie zonder me
 <details>
   <summary>
 
-  ### Kamers.
-  De gebeurtenissen binnen de 'virtuele ruimtes' in de applicatie applicatie waarin spelers een quiz kunnen organiseren of aan deelnemen.
+  ### ruimtes.
+  De gebeurtenissen binnen de 'virtuele ruimtes' in de applicatie applicatie waarin deelnemers een quiz kunnen organiseren of aan deelnemen.
   </summary>
 
 <br>
 
 ###### Join.
-Een speler probeert deel te nemen aan een spelkamer met een gebruikersnaam en kamernaam.
+Een speler probeert deel te nemen aan een spelruimte met een gebruikersnaam en ruimtenaam.
 
 <br>
 
 ###### CreateRoom.
-Een nieuwe spelkamer wordt aangemaakt.
+Een nieuwe spelruimte wordt aangemaakt.
 
 <br>
 
 ###### RoomCreated.
-Bevestigt dat de kamer is aangemaakt en stuurt de kamernaam naar de speler die de kamer heeft aangemaakt.
+Bevestigt dat de ruimte is aangemaakt en stuurt de ruimtenaam naar de speler die de ruimte heeft aangemaakt.
 
 <br>
 
@@ -229,17 +227,17 @@ Bevestigt dat de kamer is aangemaakt en stuurt de kamernaam naar de speler die d
 <br>
 
 ###### UpdateScoreboard.
-Het scorebord wordt bijgewerkt met de huidige scores van alle spelers in de kamer.
+Het scorebord wordt bijgewerkt met de huidige scores van alle deelnemers in de ruimte.
 
 <br>
 
 ###### UpdateCountdown.
- De aftelklok wordt bijgewerkt en naar alle spelers in de kamer gestuurd.
+ De aftelklok wordt bijgewerkt en naar alle deelnemers in de ruimte gestuurd.
 
 <br>
 
 ###### SubmitAnswer.
-Een speler dient een antwoord in voor de huidige vraag in de kamer.
+Een speler dient een antwoord in voor de huidige vraag in de ruimte.
 
 <br>
 
@@ -249,17 +247,17 @@ Schakelt de antwoordknoppen uit voor de speler die een fout antwoord heeft inged
 <br>
 
 ###### NextRound.
-Verzoekt een nieuwe ronde te starten in de kamer.
+Verzoekt een nieuwe ronde te starten in de ruimte.
 
 <br>
 
 ###### NewQuestion.
-Een nieuwe vraag wordt naar alle spelers in de kamer gestuurd.
+Een nieuwe vraag wordt naar alle deelnemers in de ruimte gestuurd.
 
 <br>
 
 ###### EnableButtons.
-Schakelt de antwoordknoppen in voor alle spelers in de kamer.
+Schakelt de antwoordknoppen in voor alle deelnemers in de ruimte.
 
 <br>
 
@@ -362,12 +360,6 @@ Alle deelnemers worden na afloop van de quiz naar een pagina gestuurd waar de wi
 
 <br>
 
-## Client- server interactie.
-...
-
-<br>
-<br>
-
 ## Onderhouden van data.
 ...
 
@@ -375,7 +367,35 @@ Alle deelnemers worden na afloop van de quiz naar een pagina gestuurd waar de wi
 <br>
 
 ## Multi- user ondersteuning.
-...
+De mogelijkheid om gelijktijdige interactie en tussen meerdere deelnemers mogelijk te maken.
+
+<br>
+
+### Gebruikers toevoegen aan een 'virtuele ruimte'.
+Wanneer een gebruiker deelneemt aan een ruimte, wordt de gebruiker toegevoegd aan de lijst met deelnemers in die ruimte. Dit gebeurt in de ' socket.on('join') ' functie, waarbij de gebruikersnaam en de ruimte worden doorgegeven. 
+
+De code voegt de speler toe aan de players object in de rooms variabele.
+
+<br>
+
+### Controleren van het aantal deelnemers in een 'virtuele ruimte'.
+Na het toevoegen van een speler aan een ruimte, wordt het aantal deelnemers in de ruimte gecontroleerd. Als het aantal deelnemers het ingestelde limiet heeft bereikt, wordt het spel gestart. 
+
+Dit wordt gecontroleerd met behulp van de ' playerCount ' variabele in de ' socket.on('join') ' functie.
+
+<br>
+
+### Het verlaten van een 'virtuele ruimte' afhandelen.
+Wanneer een speler de verbinding verbreekt, wordt de ' socket.on('disconnect') ' functie geactiveerd.
+
+In deze functie wordt de speler verwijderd uit de lijst met deelnemers in de betreffende ruimte.
+
+<br>
+
+### Het delen van gegevens in de 'virtuele ruimte'.
+ Verschillende gebeurtenissen worden gebruikt om gegevens te delen tussen deelnemers in dezelfde ruimte. 
+ 
+ Bijvoorbeeld, de ' updateScoreboard ' gebeurtenis wordt geactiveerd om het scorebord bij te werken voor alle deelnemers in een ruimte. Het ' io.to(...).emit(...) ' wordt gebruikt om deze ' update ' naar alle verbonden deelnemers in een specifieke ruimte te sturen.
 
 <br>
 <br>
