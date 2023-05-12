@@ -166,6 +166,8 @@ https://real-time-web-2223.up.railway.app//
 ## De real- time events.
 De gebeurtenissen of die onmiddellijk worden verwerkt in de applicatie zonder merkbare vertraging.
 
+<br>
+
 ### Kamers.
 De gebeurtenissen binnen de 'virtuele ruimtes' in de applicatie applicatie waarin spelers een quiz kunnen organiseren of aan deelnemen.
 
@@ -174,11 +176,15 @@ De gebeurtenissen binnen de 'virtuele ruimtes' in de applicatie applicatie waari
 ###### Join.
 Een speler probeert deel te nemen aan een spelkamer met een gebruikersnaam en kamernaam.
 
+<br>
+
 ###### CreateRoom.
 Een nieuwe spelkamer wordt aangemaakt.
 
+<br>
+
 ###### RoomCreated.
- Bevestigt dat de kamer is aangemaakt en stuurt de kamernaam naar de speler die de kamer heeft aangemaakt.
+Bevestigt dat de kamer is aangemaakt en stuurt de kamernaam naar de speler die de kamer heeft aangemaakt.
 
 <br>
 
@@ -191,23 +197,37 @@ De gebeurtenissen binnen het spel, dat zich afspeelt binnen de 'virtuele ruimtes
 ###### UpdateScoreboard.
 Het scorebord wordt bijgewerkt met de huidige scores van alle spelers in de kamer.
 
+<br>
+
 ###### UpdateCountdown.
  De aftelklok wordt bijgewerkt en naar alle spelers in de kamer gestuurd.
+
+<br>
 
 ###### SubmitAnswer.
 Een speler dient een antwoord in voor de huidige vraag in de kamer.
 
+<br>
+
 ###### DisableButtons.
 Schakelt de antwoordknoppen uit voor de speler die een fout antwoord heeft ingediend.
+
+<br>
 
 ###### NextRound.
 Verzoekt een nieuwe ronde te starten in de kamer.
 
+<br>
+
 ###### NewQuestion.
 Een nieuwe vraag wordt naar alle spelers in de kamer gestuurd.
 
+<br>
+
 ###### EnableButtons.
 Schakelt de antwoordknoppen in voor alle spelers in de kamer.
+
+<br>
 
 ###### RedirectToResults.
 Stuurt de winnaar door naar de resultatenpagina.
@@ -220,26 +240,29 @@ Het belichten van de uitgebreide aard van het project en de diverse functionalit
 
 <br>
 
-###### Functionaliteiten.
-De diverse functionaliteit die mijn applicatie te bieden heeft. 
-
 ### Spelruimtes.
 De diverse functionalieiten die mijn applicatie te bieden heeft met betrekking tot de 'virtuele ruimtes'.
 
 <br>
 
-###### Functionaliteit 1A.
+###### Functionaliteiten.
+
+<br>
+
 #### Gebruikersnaam invoeren.
 Gebruikers kunnen een eigen gebruikersnaam invoeren.
 
+<br>
 
-###### 
+###### Quiz organiseren.
 Gebruikers kunnen een quiz organiseren in een eigen speelruimte.
 
-###### ...
+<br>
+
+###### Deelnemen aan een quiz.
 Gebruikers kunnen deelnemen aan een andere quiz, door middel van toegangscode voor de speelruimte.
 
-
+<br>
 <br>
 
 ### Het spel.
