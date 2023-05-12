@@ -225,13 +225,14 @@ De diverse functionaliteit die mijn applicatie te bieden heeft.
 
 ### Spelruimtes.
 De diverse functionalieiten die mijn applicatie te bieden heeft met betrekking tot de 'virtuele ruimtes'.
+
 <br>
 
 ###### Functionaliteit 1A.
+#### Gebruikersnaam invoeren.
 Gebruikers kunnen een eigen gebruikersnaam invoeren.
 
 
-...
 ###### 
 Gebruikers kunnen een quiz organiseren in een eigen speelruimte.
 
