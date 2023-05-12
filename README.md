@@ -39,7 +39,6 @@ Npm run start
 De organisatie en hiërarchie van mappen en bestanden, binnen mijn project.
 
 <br>
-<br>
 
 ### Tree
 De mappen en bestanden van mijn project in een boomstructuur worden getoond.
@@ -101,9 +100,7 @@ Dit is het belangrijkste bestand dat de server initialiseert. Het stelt Express 
 <br>
 
 ###### Socket.js : 
-Dit bestand bevat de logica voor de realtime communicatie tussen de server en de clients met behulp van Socket.IO.
-
-Het behandelt verschillende Socket.IO-events, zoals het joinen van een room, het creëren van een room en het verbreken van de verbinding.
+Dit bestand bevat de logica voor de realtime communicatie tussen de server en de clients. Het behandelt verschillende Socket.IO- events, zoals het joinen van een room, het creëren van een room en het verbreken van de verbinding.
 
 <br>
 <br>
@@ -143,14 +140,10 @@ Dit bestand definieert de routes voor de toepassing en welke controller functie 
 <br>
 <br>
 
-### `
-
-
-
-<br>
-
 ## De applicatie op Adaptable.io
 Een link naar de gepubliceerde applicatie.
+
+<br>
 
 ``` shell
 # Link naar gepubliceerde applicatie.
@@ -273,12 +266,12 @@ Gebruikers kunnen een eigen gebruikersnaam invoeren.
 
 <br>
 
-###### Quiz organiseren.
+#### Quiz organiseren.
 Gebruikers kunnen een quiz organiseren in een eigen speelruimte.
 
 <br>
 
-###### Deelnemen aan een quiz.
+#### Deelnemen aan een quiz.
 Gebruikers kunnen deelnemen aan een andere quiz, door middel van toegangscode voor de speelruimte.
 
 <br>
@@ -300,37 +293,37 @@ De diverse functionalieiten die mijn applicatie te bieden heeft met betrekking t
 
 <br>
 
-###### Auto- start.
+#### Auto- start.
 Bij een minimaal aantal deelnemers, wordt er afgeteld voordat het spel begint. 
 
 <br>
 
-###### Maximaal aantal deelnemers.
+#### Maximaal aantal deelnemers.
 Er kunnen maximaal 10 deelnemers meedoen aan een quiz.
 
 <br>
 
-###### Willekeurige nummers raden.
+#### Willekeurige nummers raden.
 Iedere ronde wordt er een willekeurig nummer afgespeeld uit de Spotify Afspeellijst <a href="https://open.spotify.com/playlist/37i9dQZEVXbNG2KDcFcKOF"></a>'Topnummers- van de wereld'.
 
 <br>
 
-###### Meerkeuze vragen.
+#### Meerkeuze vragen.
 Iedere ronde worden er naast de correcte artiest, 3 incorrecte artiesten uit de Spotify Afspeellijst <a href="https://open.spotify.com/playlist/37i9dQZEVXbNG2KDcFcKOF"></a>'Topnummers- van de wereld'. weergegeven om een keuze uit te maken.
 
 <br>
 
-###### Bijgehouden score.
+#### Bijgehouden score.
 Iedere ronde wordt de score van alle deelnemers bijgehouden.
 
 <br>
 
-###### Speldoel.
+#### Speldoel.
 Deelnemers kunnen de 'ultieme muziek quiz' winnen door de eerste te zijn van alle deelnemers die 10 punten heeft behaald.
 
 <br>
 
-###### Winnaar.
+#### Winnaar.
 Alle deelnemers worden na afloop van de quiz naar een pagina gestuurd waar de winnaar van de quiz te zien is.
 
 <br>
