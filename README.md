@@ -446,6 +446,9 @@ Over het verbeteren van de vormgeving en gebruikerservaring.
 
 - [ ] Leaderboard tonen met alle plaatsen aan het einde, in plaats van alleen de winnaar.
 
+
+<br>
+
 ### Gerelateerd aan mijn code.
 Over het verbeteren van mijn code.
 
@@ -454,6 +457,7 @@ Over het verbeteren van mijn code.
 - [ ] Code refactoren om de code leesbaarder en onderhoudbaar te maken.
 - [ ] Implementeren van een code bundler om de code efficiënter te beheren.
 
+<br>
 
 ### Gegevensbeheer en prestaties.
 Over het verbeteren van gegevensbeheer en prestaties. 
