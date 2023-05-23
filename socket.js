@@ -28,6 +28,7 @@ module.exports = function initializeSocket(io) {
         playersAnswered: 0,
         tracks: [],
         host: null,
+        tracksLoaded: false, // nieuwe eigenschap
       };
     }
     return rooms[room];
@@ -50,16 +51,25 @@ module.exports = function initializeSocket(io) {
       if (playerCount === 10) {
         startGame(room);
       } else if (playerCount >= 3 && gameState.countdown === 10) {
-        // Start een aftelling voor de start van het spel
+        // Begin met het aftellen, ongeacht of de tracks al zijn opgehaald
         const countdownInterval = setInterval(() => {
           gameState.countdown -= 1;
           io.to(room).emit('updateCountdown', gameState.countdown);
 
           if (gameState.countdown === 0) {
             clearInterval(countdownInterval);
-            startGame(room);
+            if (gameState.tracksLoaded) { // controleer of de tracks zijn geladen
+              startGame(room);
+            } else {
+              // Hier kun je de aftelling herstarten of het spel pauzeren tot de tracks zijn geladen
+            }
           }
         }, 1000);
+
+        // Begin met het ophalen van de tracks terwijl het aftellen aan de gang is
+        if (!gameState.tracksLoaded) {
+          populateTracks(gameState);
+        }
       }
     });
 
@@ -137,6 +147,7 @@ module.exports = function initializeSocket(io) {
       const track = await getRandomTrack(playlistId);
       gameState.tracks.push(track);
     }
+    gameState.tracksLoaded = true;
   }
 
   // Functie om het spel te starten
@@ -144,7 +155,6 @@ module.exports = function initializeSocket(io) {
     const gameState = getRoomState(room);
     gameState.countdown = -1;
     io.to(room).emit('updateCountdown', gameState.countdown);
-    await populateTracks(gameState);
     gameState.host = selectHost(gameState);
     nextQuestion(room);
   }

@@ -175,7 +175,7 @@ Een link naar de gepubliceerde applicatie.
 
 ``` shell
 # Link naar gepubliceerde applicatie.
-https://real-time-web-2223.up.railway.app//
+https://real-time-web-2223-production-9a3e.up.railway.app/
 ```
 <br>
 
