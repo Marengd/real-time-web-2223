@@ -32,7 +32,7 @@ Npm install
 
 # Maak een .env bestand aan in de root van de projectfolder.
 SPOTIFY_CLIENT_ID=jouw_spotify_client_id
-SPOTIFY_CLIENT_SECRET=jouw_spotify_client_secret\
+SPOTIFY_CLIENT_SECRET=jouw_spotify_client_secret
 
 # Vervang jouw_spotify_client_id en jouw_spotify_client_secret met de waarden die je hebt verkregen van de Spotify Developer website (https://developer.spotify.com/).
 
